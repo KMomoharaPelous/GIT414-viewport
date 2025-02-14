@@ -185,7 +185,7 @@ section{
 }
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 600px) {
         header, footer{
             background-color: var(--pink);
             color: var(--white);
@@ -205,8 +205,7 @@ section{
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
     @media screen 
-    and (min-width: 320px)
-    and (max-width: 480px) {
+    and (min-width: 600px) {
         header, footer{
             background-color: var(--lime-green);
             color: var(--dark-gray);
@@ -241,8 +240,7 @@ section{
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
     @media screen
-    and (min-width: 768px)
-    and (max-width: 1024px) {
+    and (min-width: 768px) {
 
         header, footer{
             background-color: var(--black);
@@ -278,8 +276,7 @@ section{
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
     @media screen
-    and (min-width: 1024px)
-    and (max-width: 1824px) {
+    and (min-width: 992px) {
 
         header, footer{
             background-color: var(--lime-green);
@@ -320,17 +317,18 @@ section{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
+    img{
         width: 300px;
         max-width: 300px;
-    } */
+    }
+    
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    @media screen and (min-width: 1824px) {
+    @media screen and (min-width: 1200px) {
 
         header, footer{
             background-color: var(--orange);
